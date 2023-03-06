@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Views.VisuCadast">
+  <grid id="27dc6" binding="panelVisuCadast" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="636" height="512"/>
+    </constraints>
+    <properties>
+      <background color="-14724493"/>
+      <enabled value="true"/>
+      <font name="Montserrat" size="0"/>
+      <minimumSize width="200" height="240"/>
+      <preferredSize width="800" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="58296" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="36" style="1"/>
+          <foreground color="-7960434"/>
+          <text value="Funcionarios Cadastrados"/>
+        </properties>
+      </component>
+      <vspacer id="d4722">
+        <constraints>
+          <grid row="2" column="2" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ee429" class="javax.swing.JLabel" binding="NomeFunc">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="14"/>
+          <foreground color="-3618616"/>
+          <text value="Nome"/>
+        </properties>
+      </component>
+      <vspacer id="a57fc">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="edca3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="c958">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="30735">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="c91f5">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="268e9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="18"/>
+          <foreground color="-3618616"/>
+          <text value="Nome:"/>
+        </properties>
+      </component>
+      <component id="9361e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="18"/>
+          <foreground color="-3618616"/>
+          <text value="Salario:"/>
+        </properties>
+      </component>
+      <component id="19c20" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="18"/>
+          <foreground color="-3618616"/>
+          <text value="Função:"/>
+        </properties>
+      </component>
+      <component id="877bb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="18"/>
+          <foreground color="-3618616"/>
+          <text value="CPF:"/>
+        </properties>
+      </component>
+      <component id="eac62" class="javax.swing.JLabel" binding="SalarioFunc">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="14"/>
+          <foreground color="-3618616"/>
+          <text value="Salario"/>
+        </properties>
+      </component>
+      <component id="7f662" class="javax.swing.JLabel" binding="FuncaoFunc">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="14"/>
+          <foreground color="-3618616"/>
+          <text value="Função"/>
+        </properties>
+      </component>
+      <component id="db8a" class="javax.swing.JLabel" binding="cpfFunc">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Montserrat" size="14"/>
+          <foreground color="-3618616"/>
+          <text value="CPF"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
